@@ -8,14 +8,14 @@ import org.newdawn.slick.GameContainer;
 import org.newdawn.slick.SlickException;
 
 /**
- * TODO: Javadoc
+ * essential logic for a mouse controlled player
  *
  * @author dmalecki
  */
 public class EssentialMousePlayer extends EssentialPlayer {
 
 	/**
-	 * TODO: Javadoc
+	 * sets basic values
 	 *
 	 * @param ORIGx1
 	 * @param ORIGy1
