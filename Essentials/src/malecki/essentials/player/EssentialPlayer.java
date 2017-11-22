@@ -5,6 +5,7 @@
 package malecki.essentials.player;
 
 import org.newdawn.slick.GameContainer;
+import org.newdawn.slick.Image;
 import org.newdawn.slick.SlickException;
 
 import malecki.essentials.objects.EssentialObjectImpl;
@@ -30,6 +31,7 @@ public class EssentialPlayer extends EssentialObjectImpl {
 	public EssentialPlayer(float ORIGx1, float ORIGy1, float ORIGx2, float ORIGy2)
 			throws SlickException {
 		super(ORIGx1, ORIGy1, ORIGx2, ORIGy2);
+		setImage(new Image("res/art/white.png"));
 	}
 
 	/**
